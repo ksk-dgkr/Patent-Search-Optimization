@@ -1,0 +1,5 @@
+reminders,monitor,admonisher,reminder
+text,textual matter,school text,text edition
+summarization,summarisation
+nlp,human language technology,natural language processing
+techniques,proficiency,technique

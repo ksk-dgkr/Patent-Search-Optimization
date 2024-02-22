@@ -1,0 +1,66 @@
+#1
+Title:
+Cognitive Radios for communication during Carrington Event
+
+Description:
+During calamities like Carrington Event, all forms of communication are disrupted and telephones and radios will no longer work. Cognitive Radios can be an effective alternative to be used in such situations for worldwide communication without the effect of geomagnetic storms and solar flares.
+
+Keywords:
+Cognitive Radio, communication, Carrington Event, geomagnetic storms, solar flares.
+
+-TextRank:
+solar flares
+worldwide communication
+geomagnetic storms
+such situations
+communication
+radios
+telephones
+Carrington Event
+Cognitive Radios
+calamities
+
+-TextRank1
+['communication', 'radios', 'calamities', 'like', 'carrington', 'event', 'forms', 'disrupted', 'telephones', 'longer']
+
+#2
+Title:
+Detecting Multiple Reminders from Text Summarization using NLP Techniques
+
+Description:
+The process of automatic reminder generation from conversations typically involves analyzing the text of the conversation to identify key phrases, date, and time. It is a feature that uses Natural Language Processing (NLP) and Machine Learning (ML) to extract information from speech. This information can then be used to automatically create reminders for important tasks or events. Elderly individuals often have difficulty remembering taking medication at specific times. An existing system called Reminder Rosie is designed to solve the very real daily challenges of memory loss. It is a personalized voice-controlled reminder system that elders can use. It reminds our medications, appointments, and every-day tasks. Another platform called Hugging Face which is an NLP platform offers a conversational AI system called "Reminder Bot." This bot allows users to set reminders by simply messaging it with natural language commands. Common drawback for both these systems is the reminders are to be typed manually, which is a tedious process. Our proposed solution is to generate reminders automatically from real-time conversations as they happen and set them as remainders. For this, recorded conversation is converted into text, and then text is summarized with the help of special keywords dataset. These are then added to the Google calendar as remainders. To achieve this, Speech to Text conversion, NLP techniques are used for text summarization. By automatically generating reminders from conversations, users can save time and increase productivity by reducing the need for manual entry of reminders. 
+
+Keywords:
+
+-TextRank:
+automatic reminder generation
+reminders
+specific times
+time
+conversations
+recorded conversation
+natural language commands
+text summarization
+manual entry
+memory loss
+
+-TextRank1
+['process', 'reminder', 'conversations', 'text', 'conversation', 'time', 'natural', 'language', 'nlp', 'information']
+
+Description:
+"The process of automatic reminder generation from conversations typically involves analyzing the text of the conversation to identify key phrases, date, and time. It is a feature that uses Natural Language Processing (NLP) and Machine Learning (ML) to extract information from speech. This information can then be used to automatically create reminders for important tasks or events. Elderly individuals often have difficulty remembering taking medication at specific times. Our proposed solution is to generate remainders automatically from real-time conversations as they happen and set them as remainders. For this, recorded conversation is converted into text, and then text is summarized with the help of special keywords dataset. These are then added to the Google calendar as remainders. To achieve this, Speech to Text conversion, NLP techniques are used for text summarization. By automatically generating reminders from conversations, users can save time and increase productivity by reducing the need for manual entry of reminders."
+
+-TextRank:
+specific times
+time
+conversations
+recorded conversation
+reminders
+automatic reminder generation
+remainders
+manual entry
+text summarization
+real-time conversations
+
+-TextRank1
+['conversations', 'text', 'conversation', 'time', 'nlp', 'information', 'speech', 'used', 'automatically', 'reminders']

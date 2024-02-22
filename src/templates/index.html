@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patent Search Optimization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>Patent Search</h1>
+        <form action="{{'get_query'}}" method="POST">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="description">Description:</label>
+            <textarea rows="6" id="description" name="description" required></textarea>
+
+            <div class="flex"><button type="submit", value = 'Query_gen'>Search</button></div>
+
+        </form>
+    </div>
+    <!-- query -->
+    
+    <!-- {% if query %} -->
+    <div class="container">
+        <h1>Boolean Query</h1>
+        <form action="{{'get_patents'}}" method = "POST">
+            <input type="hidden" name="query" value="{{ query }}">
+            <p>{{ query }}</p>
+            <div class="flex"><button type="submit", value = 'Patent_gen'>Get Patents</button></div>
+        </form>
+    </div>
+    <!-- {% endif %} -->
+
+    {% if patents %}
+    <div class="container">
+        <h1>Relevant Patents</h1>
+        <ul>
+            {% for patent in patents %}
+                <li>
+                    <a href="{{ patent.link }}" target="_blank">{{ patent.title }}</a>
+                    <p>{{ patent.snippet }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+    
+    
+    <!-- <script async src="https://cse.google.com/cse.js?cx=a7ace0a001b444cce">
+    </script>
+    <div class="gcse-search"></div> -->
+
+</body>
+
+</html>

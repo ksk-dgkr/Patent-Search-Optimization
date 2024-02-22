@@ -1,0 +1,57 @@
+rosie
+events,consequence,result,issue
+commands,overtop,mastery,require
+natural,lifelike,cancel,rude
+solution,result,root,answer
+speech,language,oral communication,address
+voice,vocalisation,part,articulation
+date,escort,go steady,appointment
+platform,political program,program,weapons platform
+techniques,technique,proficiency
+productivity,productiveness
+system,organisation,scheme,arrangement
+time,fourth dimension,clip,metre
+text,textual matter,textbook,school text
+challenges,take exception,gainsay,challenge
+nlp,natural language processing,human language technology
+process,treat,sue,serve
+generation,contemporaries,coevals,genesis
+remainders,remainder,residue,rest
+phrases,set phrase,musical phrase,give voice
+drawback
+ai,three-toed sloth,artificial insemination,Army Intelligence
+reminders,reminder,admonisher,monitor
+conversation
+individuals,mortal,individual,someone
+multiple
+information,info,entropy,selective information
+tasks,job,task,labor
+medication,medicine,medicament,medicinal drug
+day,daylight,Clarence Day,Day
+reminder,admonisher,monitor
+google,Google
+need,ask,motivation,indigence
+processing,work,work on,treat
+hugging face
+difficulty,trouble,difficultness
+summarization,summarisation
+medications,medicine,medicament,medicinal drug
+help,assistant,serve,helper
+bot
+systems,organisation,scheme,arrangement
+memory,retentivity,computer memory,retention
+loss,release,red,expiration
+conversion,spiritual rebirth,rebirth,changeover
+entry,first appearance,ledger entry,entering
+machine learning
+ml,cubic centimetre,milliliter,millilitre
+appointments,fitting,appointment,assignment
+language,linguistic process,oral communication,spoken communication
+feature,feature article,feature of speech,feature film
+conversations,conversation
+elders,elder,senior,elderberry bush
+text summarization
+times,fourth dimension,clip,metre
+calendar
+keywords
+users,exploiter,substance abuser,user

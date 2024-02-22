@@ -1,0 +1,30 @@
+def get_synonyms(word):
+    synonyms = []
+    for syn in wordnet.synsets(word):
+        for lemma in syn.lemmas():
+            synonyms.append(lemma.name())
+    return synonyms
+
+def extract_synonyms(keywords):
+    keywords_and_synonyms = {}
+    for keyword in keywords:
+        synonyms = get_synonyms(keyword)
+        synonyms = list(set(synonyms))
+        if keyword in synonyms: 
+            synonyms.remove(keyword)
+        if keyword.lower() in synonyms:
+            synonyms.remove(keyword.lower())
+        if keyword.upper() in synonyms:
+            synonyms.remove(keyword.upper())
+        synonyms_str = ", ".join(synonyms[:3])  # Get the first three synonyms
+        print(f"{keyword}: {synonyms_str}\n")
+        for i in range(3):
+            if i < len(synonyms):
+                synonyms[i] = synonyms[i].replace("_", " ")
+        keywords_and_synonyms[keyword] = synonyms[:3]
+    
+    print(keywords_and_synonyms)
+
+keywords = ['effect', 'storms', 'flares', 'carrington event', 'communication', 'alternative', 'telephones', 'situations', 'forms', 'calamities', 'radios']
+extract_synonyms(keywords)
+
