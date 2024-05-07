@@ -2,7 +2,7 @@
 A search engine application to provide the most relevant patents to an idea description provided as input.
 To start using the program, clone the repository
 ```
-git clone https://github.com/ksk-dgkr/Automatic-Remainder-Generation.git
+git clone https://github.com/ksk-dgkr/Patent-Search-Optimization.git
 ```
 Install necessary requirements
 
